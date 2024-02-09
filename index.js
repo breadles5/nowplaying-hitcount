@@ -52,18 +52,12 @@ socket.onmessage = event => {
       title.innerHTML = t_title;
       title.style.width = 'auto';
       let titleWidth = title.offsetWidth;
-      if (titleWidth >= 850) {
-
-      } 
     }
     if(t_data !== menu.bm.metadata.mapper + "' " + menu.bm.metadata.diffculty){
       t_data = menu.bm.metadata.mapper + "' " + menu.bm.metadata.diffculty;
       data.innerHTML = t_data;
       data.style.width = 'auto';
       let dataWidth = data.offsetWidth;
-      if (dataWidth >= 850) {
-
-      } 
     }
     
     /* hit counts */

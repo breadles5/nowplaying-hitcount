@@ -37,3 +37,10 @@
         .div10 { grid-area: 4 / 4 / 5 / 7; }
     }
 }
+
+@media (min_width: 800px) {
+    .scrollable {
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+}
